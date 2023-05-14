@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buy Tickts</title>
+    <style>
+      * {
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <nav>
+          <img
+            src="../img/nav-icon.png"
+            alt="nav-icon"
+            width="25"
+            height="25"
+          />
+          <a href="../../index.html">HOME</a>
+          <a href="../pages/movies.html">Chose Movie</a>
+          <a href="../pages/login.html">Login</a>
+        </nav>
+      </nav>
+    </header>
+    <hr />
+    <main>
+      <h1>TICKET BUYING</h1>
+      <article>
+        <h3>Fill the details</h3>
+        <form>
+          <p>
+            <label for="movie-name">Chose movie </label>
+            <select
+              name="chose-movie"
+              id="movie-name"
+              placeholder="chose movie"
+            >
+              <option value="NONE">please select a movie</option>
+              <option value="gurdian-option">
+                GUARDIANS OF THE GALAXY VOL. 3
+              </option>
+              <option value="dungeon-and-dragons-otions">
+                DUNGEONS & DRAGONS: HONOR AMONG THIEVES
+              </option>
+              <option value="peterpen-and-wendy-option">
+                PETER PAN & WENDY
+              </option>
+              <option value="super-mario-option">
+                THE SUPER MARIO BROS. MOVIE
+              </option>
+              <option value="margaret-option">
+                ARE YOU THERE GOD? IT'S ME, MARGARET.
+              </option>
+            </select>
+            <label for="ticket-quantity">Ticket Quantity</label>
+            <input type="number" min="1" max="10" step="1" />
+          </p>
+          <p>
+            <label for="name">First Name</label>
+            <input id="name" type="text" placeholder="first name" />
+
+            <label for="last-name">Last Name</label>
+            <input id="last-name" type="text" placeholder="last name" />
+          </p>
+          <p>
+            <label for="email">Mail</label>
+            <input id="email" type="email" placeholder="enter your email" />
+          </p>
+          <p>
+            <label for="age">Age</label>
+            <input type="date" id="age" />
+          </p>
+          <p>
+            <label for="line">Chose line</label>
+            <input id="line" type="number" min="1" max="20" step="1" />
+
+            <label for="chair">Chose Chair</label>
+            <input id="chair" type="number" min="1" max="25" step="" />
+          </p>
+          <h2>Payment</h2>
+          <fieldset>
+            <p>
+              <label for="fname">Full Name</label> <br />
+              <input id="fname" type="text" placeholder="full name on card" />
+            </p>
+            <p>
+              <label for="email">Email</label><br />
+              <input id="email" type="email" placeholder="example@example" />
+            </p>
+            <p>
+              <label for="address">Address</label><br />
+              <input id="address" type="text" placeholder="21 jump street" />
+            </p>
+            <p>
+              <label for="city">City</label><br />
+              <input id="city" type="text" placeholder="New York" />
+            </p>
+            <p>
+              <label for="zip">Zip</label><br />
+              <input id="zip" type="text" placeholder="10001" />
+            </p>
+            <p>
+              <label for="credit-number">Credit Card Number</label><br />
+              <input
+                id="credit-number"
+                type="text"
+                placeholder="1111-2222-3333-4444"
+              />
+            </p>
+            <p>
+              <label for="creditexp">Exp Month</label><br />
+              <input id="creditexp" type="month" />
+            </p>
+            <p>
+              <label for="ccv">CCV</label><br />
+              <input id="ccv" type="text" placeholder="123" />
+            </p>
+          </fieldset>
+          <button type="submit">BUY TICKTS</button>
+        </form>
+      </article>
+    </main>
+  </body>
+</html>
